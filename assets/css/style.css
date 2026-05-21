@@ -12,35 +12,188 @@ box-sizing: border-box;
 }
 
 body{
-font-family:"intelOneMomo";
+
 color:#000;
-background-color:lightgoldenrodyellow;
+background-color:oklch(97% 0 0);
 line-height: 1.7;
+text-align: center;
+display: flex;
+flex-direction: column;
+
+}
+
+main{
+
+flex: 1;
 }
 
 header{
 background: #d8f3dc;
 text-align: center;
 padding: 40px 20px;
+margin-top: 20px;
 }
+
+
+
+
 
 .menu-navegacao{
 background: #f0f4f8;
 padding: 15px;
-border-bottom: 2px solid green;
 position: fixed;
 top: 0;
 left: 0;
 width: 100vw;
 z-index: 100;
+display: flex;
+align-items: center;
+justify-content: space-around;
+background: #ccc;
 }
 .menu-navegacao a {
 margin: 0;
-color: green;
+color:oklch(37.9% 0.146 265.522);
 text-decoration: none;
 font-weight: bold;
 transition: 0.3s;
+font-size: 1.8rem;
+text-decoration: none;
+cursor: pointer;
+font-family:"intelOneMomo";
 }
 
-.menu-navegacao a:hover , .ativo{
-border-bottom: 3px solid #f69337;}
+.menu-navegacao a:hover{
+border-bottom: 3px solid white}
+
+
+
+.img_inicio{
+display: block;
+margin: auto;
+width: 100%;
+height: 400px;
+object-fit: cover;
+}
+
+h1{
+color: oklch(37.9% 0.146 265.522);
+font-size: 3rem;
+margin: 0 0 10px;
+font-family:"intelOneMomo";
+}
+
+h2{
+color: oklch(44.6% 0.043 257.281);
+font-size: 2em;
+margin: 0 0 10px;
+font-family:"intelOneMomo";
+}
+
+p{
+font-size: 1.5rem;
+margin: 0 0 10px;
+}
+ul{
+list-style: none;
+padding: 0;
+
+}
+
+
+li{
+background: #d8f3dc;
+border-left: 5px solid green;
+padding: 12px 18px;
+margin-bottom: 8px;
+border-radius: 8px;
+
+font-size: 1.3rem;
+
+
+
+}
+section{
+padding: 40px 20px;
+max-width: 800px;
+margin: 0 auto;
+}
+
+.section-cinza{
+background: #ccc;
+max-width: 100%;
+}
+.container-central{
+margin: 0 auto;
+max-width: 800px;
+
+}
+
+h2{
+color: royalblue;
+border-left: 4px solid oklch(37.9% 0.146 265.522);
+padding-left: 15px;
+}
+
+h2:hover{
+border-bottom: 4px solid oklch(37.9% 0.146 265.522);
+
+}
+
+footer{
+background-color:oklch(46.6% 0.025 107.3);
+color: #f0f4f8;
+text-align: center;
+cursor: default;
+
+}
+
+.botao{
+display: inline-block;
+background-color: oklch(70.7% 0.165 254.624);
+color: black;
+padding: 10px 20px;
+border-radius: 30px;
+text-decoration: none;
+font-weight: bold;
+margin: 15px 0;
+}
+
+.ativo{
+border-bottom: 3px solid oklch(37.9% 0.146 265.522);
+}
+
+.lista-acoes{
+display: grid;
+
+}
+
+
+
+
+.container-central{
+
+}
+
+.formulario{
+max-width: 500px;
+margin: 20px auto;
+padding: 25px 65px;
+background: gainsboro;
+border-radius: 12px ;
+border: 1px solid #ccc;
+}
+
+.formulario input{
+width: 100%;
+padding: 12px;
+margin-bottom: 20px;
+border: 1px solid black;
+border-radius: 6px;
+text-align: center;
+height: 15px;
+}
+
+main{
+
+}
