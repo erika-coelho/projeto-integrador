@@ -51,6 +51,7 @@ align-items: center;
 justify-content: space-around;
 background: #ccc;
 }
+
 .menu-navegacao a {
 margin: 0;
 color:oklch(37.9% 0.146 265.522);
@@ -71,9 +72,10 @@ border-bottom: 3px solid white}
 .img_inicio{
 display: block;
 margin: auto;
-width: 100%;
-height: 400px;
+width:330px;
+height:350px;
 object-fit: cover;
+margin-top: 50px;
 }
 
 h1{
@@ -132,13 +134,11 @@ max-width: 800px;
 h2{
 color: royalblue;
 border-left: 4px solid oklch(37.9% 0.146 265.522);
-padding-left: 15px;
+padding-left: 5px;
 }
 
-h2:hover{
-border-bottom: 4px solid oklch(37.9% 0.146 265.522);
 
-}
+
 
 footer{
 background-color:oklch(46.6% 0.025 107.3);
@@ -182,6 +182,7 @@ padding: 25px 65px;
 background: gainsboro;
 border-radius: 12px ;
 border: 1px solid #ccc;
+
 }
 
 .formulario input{
@@ -193,7 +194,34 @@ border-radius: 6px;
 text-align: center;
 height: 15px;
 }
+label{
+font-size: 25px;
+}
+.btninput{
+display: inline-block;
+background-color: oklch(70.7% 0.165 254.624);
+color: black;
+padding: 10px 20px;
+border-radius: 30px;
+text-decoration: none;
+font-weight: bold;
+margin: 15px 0;
+}
 
-main{
+.msg{
+color: red;
+font-weight: bold;
+}
+
+
+@media (max-width: 480px) { 
+    h1{
+    font-size: 1.5rem;
+    h2{ 
+    font-size: 3px;}
+    
+   
+    
+}
 
 }
