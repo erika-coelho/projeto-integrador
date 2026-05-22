@@ -34,7 +34,7 @@ Através de um site desenvolvido em HTML e CSS, nossa equipe busca mostrar como 
  
 ## 🎯 Objetivos
  
-- Incentivar o uso consciente da água
+
 
 - Desenvolver habilidades em programação web
 
