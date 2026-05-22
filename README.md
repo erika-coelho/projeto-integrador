@@ -1,4 +1,4 @@
-<h1 align="center">🌍 Água: Nosso Bem Mais Precioso 💧</h1>
+<h1 align="center"> Industria Sustentavel</h1>
  
 <p align="center">
 
@@ -7,14 +7,16 @@
  
 <p align="center">
 
-  Conscientização ambiental através da tecnologia 🌱
+  Tecnologia e Sustentabilidade 🌱
 </p>
  
 ---
  
 ## 📖 Sobre o Projeto
  
-Este projeto foi criado com o objetivo de conscientizar as pessoas sobre a importância da economia de água e do consumo responsável.
+Este projeto foi criado com o objetivo da importância do uso da tecnologia para o meio ambiente está na capacidade de reduzir impactos ambientais,
+                 otimizar recursos naturais e promover práticas mais sustentáveis em empresas e na sociedade.
+            </article>
  
 Através de um site desenvolvido em HTML e CSS, nossa equipe busca mostrar como pequenas atitudes podem gerar grandes impactos no futuro do planeta.
  
@@ -32,7 +34,7 @@ Através de um site desenvolvido em HTML e CSS, nossa equipe busca mostrar como 
  
 ## 🎯 Objetivos
  
-- Incentivar o uso consciente da água
+
 
 - Desenvolver habilidades em programação web
 
@@ -120,9 +122,7 @@ projeto/
  
 ---
  
-## 🌱 Mensagem da Equipe
- 
-> “Cada gota economizada hoje ajuda a construir o amanhã.” 💧
+
  
 ---
  
