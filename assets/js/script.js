@@ -1,5 +1,33 @@
-const listaacoes= document.querySelector(".lista-acoes")
-const listaUl =document.createElement("ul")
+const acao = [{
+    icone:"✔",texto:"Monitoramento de máquinas em tempo real;"},
+    {icone:"✔",texto:"Backup automático de documentos e sistemas;"},
+    {icone:"✔",texto: "Redução do uso de servidores físicos;"},
+    {icone:"✔",texto:"Manutenção preventiva baseada em dados."},
+
+]
+
+const container = document.querySelector("#container-acoes")
+
+for(let i=0; i<acao.length;i++){
+const item = acao[i]
+const div = document.createElement("div")
+div.className = "acao-item"
+div.innerHTML = `
+ <div class="acao-icone">${item.icone}</div>
+ <p class = "acao-texto">${item.texto}</p>`
+ container.appendChild(div)
+}
+
+const nav = document.querySelector(".menu-navegacao")
+window.addEventListener("scroll",()=>{
+    if(window.scrollY>10){
+        nav.style.opacity = 0.8
+    } else{
+        nav.style.opacity = 1
+    }
+})
+    
+
 
 
 const nomeCliente = document.querySelector("#nome")
@@ -41,19 +69,3 @@ btnInput.addEventListener("click", adesao)
 
 
 
-listaacoes.appendChild(listaUl)
-
-
-const acoes = ["✓Monitoramento de máquinas em tempo real;", "✓Backup automático de documentos e sistemas;","✓ Redução do uso de servidores físicos;" , "✓Manutenção preventiva baseada em dados."]
-
-
-acoes.forEach((acoesindustria) => {
-
-    const listaLi = document.createElement("li")
-
-    listaUl.appendChild(listaLi)
-
-    listaLi.textContent = acoesindustria
-})
-
-console.log("erika")
