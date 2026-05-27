@@ -23,8 +23,12 @@ flex-direction: column;
 }
 
 main{
-
 flex: 1;
+}
+
+.container-central{
+max-width: 800px;
+margin: 0 auto;
 }
 
 header{
@@ -33,10 +37,6 @@ text-align: center;
 padding: 40px 20px;
 margin-top: 20px;
 }
-
-
-
-
 
 .menu-navegacao{
 background: #f0f4f8;
@@ -80,13 +80,13 @@ margin-top: 50px;
 
 h1{
 color: oklch(37.9% 0.146 265.522);
-font-size: 3rem;
+font-size: 2.5rem;
 margin: 0 0 10px;
 font-family:"intelOneMomo";
 }
 
 h2{
-color: oklch(44.6% 0.043 257.281);
+color: oklch(37.9% 0.146 265.522);
 font-size: 2em;
 margin: 0 0 10px;
 font-family:"intelOneMomo";
@@ -170,9 +170,6 @@ display: grid;
 
 
 
-
-
-
 .formulario{
 max-width: 500px;
 margin: 20px auto;
@@ -192,13 +189,33 @@ border-radius: 6px;
 text-align: center;
 height: 15px;
 }
+
+.lista-acoes{
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(258px,1fr));
+gap: 15px;
+margin: 20px 0;
+}
+.acao-item{
+background-color: #ccc;
+border-radius: 8px;
+border-top: 4px solid green;
+text-align: center;
+transition: transform 0.3s;
+
+}
+
+.acao-item:hover{
+    transform: translate(-5px);
+}
+
 label{
 font-size: 25px;
 }
 .btninput{
 display: inline-block;
-background-color: oklch(70.7% 0.165 254.624);
-color: black;
+background-color: oklch(37.9% 0.146 265.522);
+color: white;
 padding: 10px 20px;
 border-radius: 30px;
 text-decoration: none;
@@ -212,14 +229,14 @@ font-weight: bold;
 }
 
 
-@media (max-width: 480px) { 
+@media (max-width: 480px){
+
     h1{
-    font-size: 1.5rem;
-    h2{ 
-    font-size: 3px;}
-    
-   
-    
-}
+        font-size: 1.5rem;
+    }
+
+    h2{
+        font-size: 1.3rem;
+    }
 
 }

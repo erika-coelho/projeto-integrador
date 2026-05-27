@@ -36,6 +36,7 @@ const btnInput = document.querySelector(".btninput")
 const mensagem = document.querySelector(".msg")
 
 
+
     
 function adesao(event) {
     event.preventDefault()
@@ -57,7 +58,7 @@ function adesao(event) {
 
     else {
         
-        mensagem.textContent = "Cadastro realizado com sucesso!"
+        mensagem.textContent = " Adesão realizada com sucesso! 💙"
         mensagem.style.color = "green"
     }
 }
