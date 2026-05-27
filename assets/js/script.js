@@ -34,10 +34,10 @@ const nomeCliente = document.querySelector("#nome")
 const email = document.getElementById("email")
 const btnInput = document.querySelector(".btninput")
 const mensagem = document.querySelector(".msg")
+const form = document.querySelector("#formulario-adesao")
 
 
 
-    
 function adesao(event) {
     event.preventDefault()
 
@@ -48,6 +48,7 @@ function adesao(event) {
    
     if (nomeUsuario === "") {
         mensagem.textContent = "Informe seu nome completo"
+       
     }
 
     else if (acessoEmail === "") {
@@ -60,10 +61,17 @@ function adesao(event) {
         
         mensagem.textContent = " Adesão realizada com sucesso! 💙"
         mensagem.style.color = "green"
+
+        form.reset()
     }
 }
 
 btnInput.addEventListener("click", adesao)
+
+
+
+    
+
 
 
 
