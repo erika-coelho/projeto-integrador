@@ -72,10 +72,16 @@ border-bottom: 3px solid white}
 .img_inicio{
 display: block;
 margin: auto;
-width:330px;
-height:350px;
-object-fit: cover;
+width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+
 margin-top: 50px;
+transition: transform 0.9s;
+}
+.img_inicio:hover{
+transform: rotate(360deg);
 }
 
 h1{
