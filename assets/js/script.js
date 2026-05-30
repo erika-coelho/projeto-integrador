@@ -48,25 +48,27 @@ function adesao(event) {
    
     if (nomeUsuario === "") {
         mensagem.textContent = "Informe seu nome completo"
-       
-    }
+    mensagem.style.fontSize="18px"}
 
-    else if (acessoEmail === "") {
-        mensagem.textContent = "Informe seu e-mail"
-    }
-
+  else if (!acessoEmail.includes("@")) {
+    mensagem.style.fontSize="18px"
+    mensagem.textContent = "Informe um e-mail válido";
+}
     
 
     else {
         
         mensagem.textContent = " Adesão realizada com sucesso! 💙"
         mensagem.style.color = "green"
+        mensagem.style.fontSize="18px"
+        
 
         form.reset()
     }
 }
 
 btnInput.addEventListener("click", adesao)
+
 
 
 

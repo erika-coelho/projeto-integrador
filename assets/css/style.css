@@ -115,10 +115,7 @@ border-left: 5px solid green;
 padding: 12px 18px;
 margin-bottom: 8px;
 border-radius: 8px;
-
 font-size: 1.3rem;
-
-
 
 }
 section{
@@ -190,11 +187,15 @@ border: 1px solid #ccc;
 width: 100%;
 padding: 12px;
 margin-bottom: 20px;
-border: 1px solid black;
+
 border-radius: 6px;
 text-align: center;
 height: 15px;
+border: none;
 }
+
+
+
 
 .lista-acoes{
 display: grid;
@@ -237,12 +238,42 @@ font-weight: bold;
 
 @media (max-width: 480px){
 
-    h1{
+    h1{ margin-top: 30px;
         font-size: 1.5rem;
     }
 
     h2{
-        font-size: 1.3rem;
+        font-size: 1.5em;
+   
     }
+    p{
+    font-size: 1.4rem;
+    }
+    .btninput{
+
+background-color: oklch(37.9% 0.146 265.522);
+color: white;
+border-radius: 30px;
+text-decoration: none;
+font-weight: bold;
+margin: 0 10px;
+width:fit-content;
+
+text-align:center;
+height: 30px;
+font-size: 13px;
+
+
+}
+.formulario{
+max-width: 400px;
+margin: 10px auto;
+padding: 10px 35px;
+background: gainsboro;
+border-radius: 12px ;
+border: 1px solid #ccc;
+height: fit-content;
+
+}
 
 }
